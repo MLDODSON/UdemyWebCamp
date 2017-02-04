@@ -4,11 +4,13 @@
 h1 {
 	font-family: Raleway;
 	color: purple;
+	text-align: center;
 }
 
 h3 {
 	font-family: Raleway;
 	color: darkgreen;
+	text-align: left;
 }
 
 .least{
@@ -34,4 +36,22 @@ li {
 
 .things4{
 	color: #F45604;
+}
+
+body {
+	background-color: #F3E8B0
+}
+
+.favorites {
+	background-color: white;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.least2 {
+	background-color: #F0C78F;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
 }
