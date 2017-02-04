@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: Raleway;
+	color: purple;
+}
+
+h3 {
+	font-family: Raleway;
+	font-style: bold;
+	color: darkgreen;
+}
+
+li {
+	font-family: Raleway;
+	color: blue;
+}
