@@ -8,11 +8,30 @@ h1 {
 
 h3 {
 	font-family: Raleway;
-	font-style: bold;
 	color: darkgreen;
+}
+
+.least{
+	color: rgba(208,11,14,1.00);
 }
 
 li {
 	font-family: Raleway;
 	color: blue;
+}
+
+.things{
+	color: #FB0307;
+}
+
+.things2{
+	color: #03461D;
+}
+
+.things3{
+	color: rgba(146,18,168,1.00);
+}
+
+.things4{
+	color: #F45604;
 }
