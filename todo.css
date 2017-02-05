@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: Raleway;
+	color: black;font-size: 36pt;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+span.date{
+	color: #98080A;
+	font-size: 30pt;
+}
+
+h3 {
+	font-family: Raleway;
+	color: #110B5A;
+	font-size: 24pt;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 34px;
+}
+
+li {
+	font-family: Raleway;
+	font-size: 14pt;
+	color: #04188A;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+body {
+	background-color: #B2DCED;
+}
+
+.favorites {
+	background-color: white;
+	border-color: black;
+	border: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#pray {
+	color: #204216;
+	font-style: oblique;
+}
+
+.chi {
+	color: #8F080A;
+	font-style: oblique;
+}
+
+#exercise {
+	color: #ED6305;
+	font-style: oblique;
+}
+
+.eat {
+	color: #5B137F;
+	font-style: oblique;
+}
+
+#code {
+	color: #F8060A;
+	font-style: oblique;
+	text-decoration: line-through;
+}
+
+.food {
+	color: #C01189;
+	font-style: oblique;
+}
+
+#darth {
+	color: black;
+	font-style: oblique;
+	text-decoration: line-through;
+}
+
+.study {
+	color: rgba(23,12,123,1.00);
+	font-style: oblique;
+}
+
+.get {
+	color: rgba(251,2,6,1.00);
+	font-style: bold;
+	font-size: 30pt;
+	text-align: center
+}
