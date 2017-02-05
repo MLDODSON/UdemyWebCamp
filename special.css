@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ol {
+	color: purple;
+}
+
+p {
+	color: blue;
+}
+
+body {
+	color: red;
+}
+
+li {
+	color: orangered;
+}
+
+.son {
+	color: #260404;
+}
+
+#special {
+	color: #F10791
+}
