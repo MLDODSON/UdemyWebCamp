@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>String Variable Lesson </title>
+<link rel="stylesheet" type="text/css" href="string.css">
+</head>
+
+<!--New Boston Variables -->
+<body>
+
+<h1>Calling Functions from each other</h1>
+
+<!-- This is adding js directly to the program. -->
+
+<script type="text/javascript">
+	function doFirst() {
+		document.write("I am the man! ");	
+	}
+	
+	function doSecond() {
+		document.write("Get me some whiskey! ");
+	}
+	
+	function doThird() {
+		document.write("Who ate my pizza?");
+	}
+	
+	function start() {
+		doFirst();
+		doSecond();
+		doThird();
+	}
+	
+	start();
+	
+</script>
+
+</body>
+</html>
