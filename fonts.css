@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	font-family: Arial;
+	font-size: 2.0em;
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 5.0em;
+}
+
+body {
+	font-size: 10pt;
+}
+
+span {
+	font-size: 2.0em;
+}

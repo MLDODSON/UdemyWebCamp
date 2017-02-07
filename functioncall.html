@@ -13,7 +13,7 @@
 
 <!-- This is adding js directly to the program. -->
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
 	function doFirst() {
 		document.write("I am the man! ");	
 	}
@@ -34,7 +34,31 @@
 	
 	start();
 	
+</script> -->
+
+<!-- This is an endless loop -->
+
+<script type="text/javascript">
+	
+    function doFirst() {
+		document.write("I am the man! ");
+		doThird();
+	}
+	
+	function doSecond() {
+		document.write("Get me some whiskey! ");
+		doFirst();
+	}
+	
+	function doThird() {
+		document.write("Who ate my pizza? ");
+		doSecond();
+	}
+	
+	doFirst();
+		
 </script>
+
 
 </body>
 </html>
