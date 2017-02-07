@@ -2,13 +2,26 @@
 /* CSS Document */
 
 p {
-	font-family: Arial;
-	font-size: 2.0em;
+	font-family: Lato;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
+	text-decoration: none;
 }
 
 h1 {
-	font-family: Verdana;
+	font-family: Barrio;
 	font-size: 5.0em;
+	text-align: center;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: Pangolin;
+	font-size: 3.0em;
+	text-align: center;
+	text-decoration: none;
 }
 
 body {
