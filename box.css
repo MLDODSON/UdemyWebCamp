@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	font-family: Lato;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid blue;
+	width: 80%;
+	padding: 10px;
+	margin: 20px auto;
+}
+
