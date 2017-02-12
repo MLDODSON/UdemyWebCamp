@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table {
+	margin: auto;
+}
+
+h1 {
+	font-family: Lato; 
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+button {
+	font-family: Lato;
+	color: white;
+	background-color: #C01114;
+	padding: 15px 32px;
+	font-size: 16px;
+	border: none;
+}
+
+p {
+	font-family: Lato;
+	text-align: center;
+}

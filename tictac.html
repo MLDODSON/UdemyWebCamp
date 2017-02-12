@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>tic tac toe</title>
+<link rel="stylesheet" href="ttt.css">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Barrio|Lato|Pangolin" rel="stylesheet">
+
+<body>
+
+	<h1>Tic Tac Toe</h1>
+	<table>
+		<tr>
+			<td></td>
+			<td class="vertical"></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td class="horizontal"></td>
+			<td class="vertical horizontal"></td>
+			<td class="horizontal"></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td class="vertical"></td>
+			<td></td>
+		</tr>
+	</table>
+	
+	<p id="demo">JavaScript can change HTML content.</p>
+	<br>
+	
+	<div>
+		<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript! I did it!"'>Hit Me</button>
+	</div>
+</body>
+</html>
