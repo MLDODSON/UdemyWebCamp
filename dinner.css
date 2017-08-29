@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+h1 {
+	font-family: dancing script;
+	font-size: 60pt;
+	text-align: center;
+	color: darkorange;
+}
+
+h2 {
+	font-family: Saira Semi Condensed;
+	font-size: 20pt;
+	text-align: justify;
+	margin-left: 60px;
+}
+
+.question {
+	color: darkblue;
+}
+
+.food {
+	color: purple;
+}
+
+.alert {
+	color: red;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: blue;
+}
+
+.one {
+	color: red;
+}
+
+.two {
+	color: purple;
+}
+
+.three {
+	color: darkgreen;
+}
