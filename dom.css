@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: darkblue;
+	font-family: Baloo Tammudu;
+	text-align: center;
+	font-size: 36pt;
+}
+
+h2 {
+	color: red;
+	font-family: Indie Flower;
+	text-align: center;
+	font-size: 34pt;
+}
+
+.things {
+	color: black;
+	font-family: Muli;
+	font-size: 18pt;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+.stuff {
+	color: purple;
+	font-family: Muli;
+	font-size: 18pt;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+#mine {
+	color: red;
+	font-family: Muli;
+	font-size: 18pt;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+p {
+	color: black;
+	font-family: Muli;
+	font-size: 20pt;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.favorite {
+	color: purple;
+	font-family: Indie Flower;
+	font-size: 36pt;
+	margin-left: 30px;
+	text-align: center;
+	border: 2px solid orange;
+}

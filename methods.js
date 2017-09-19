@@ -34,3 +34,16 @@ glennyGreet.speak = function() {
 	return "How you doing?";
 };
 
+function oledirty() {
+    return "Baby I love you!";
+}
+
+//this can be used in js to do many things.
+var comments = {};
+comments.data = ["Who ate my ice cream?", "Somebody call Ghost Busters!", "No more cake for you young man!"];
+
+comments.print = function() {
+	this.data.forEach(function(el) {
+		console.log(el);
+	});
+};
