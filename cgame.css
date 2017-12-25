@@ -60,6 +60,7 @@ button {
 	transition: all 1.0s;
 	-webkit-transition: background 1.0s;
 	-moz-transition: background 1.0s;
+	outline: none;
 }
 
 button:hover {
