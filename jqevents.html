@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Events</title>
+	<script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+	<h1>jQuery Events</h1>
+	
+	<button>Please Don't Click Me!</button>
+	<button>I Said Don't Click Me!</button>
+	<button>I'm Warning You!</button>
+	<button>SMACK!!</button>
+	
+</body>
+</html>
+
+<!--
+$("h1").click(function() {
+	alert("h1 clicked!")
+});
+
+$("button").click(function() {
+	alert("button clicked!")
+});
+
+$("button").click(function() {
+	$(this).css("background", "yellow")
+});
+
+$("button").click(function() {
+	var text = $(this).text();
+	console.log("You clicked " + text)
+});
