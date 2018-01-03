@@ -10,6 +10,8 @@
 	
 	<h1>jQuery Events</h1>
 	
+	<input type ="text">
+	
 	<button>Please Don't Click Me!</button>
 	<button>I Said Don't Click Me!</button>
 	<button>I'm Warning You!</button>
@@ -35,3 +37,15 @@ $("button").click(function() {
 	var text = $(this).text();
 	console.log("You clicked " + text)
 });
+
+
+$("input").keypress(function() {
+	console.log("YOU PRESSED A KEY!");
+});
+
+$("input").keypress(function(event) {
+	console.log(event);
+});
+
+
+
