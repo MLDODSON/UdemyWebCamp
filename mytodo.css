@@ -30,6 +30,8 @@ background-image: -webkit-linear-gradient(left, rgb(255,255,0) 0%, rgb(5,193,255
 
 /* W3C Markup */ 
 background-image: linear-gradient(to right, rgb(255,255,0) 0%, rgb(5,193,255) 50%, rgb(255,255,0) 100%);
+	
+font-family: Roboto;
 }
 
 ul {
@@ -37,10 +39,6 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
-body {
-		font-family: Roboto;
-	}
 
 li {
 	background: white;
