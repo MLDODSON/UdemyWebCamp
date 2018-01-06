@@ -26,6 +26,10 @@ h1 {
 	font-size: 60px;
 	font-weight: normal;
 	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;  
+	display: block;
+	animation-name: moveInLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
 }
 
 .fa-plus {
@@ -97,4 +101,20 @@ input:focus {
 .cointainer{
 	width: 360px;
 	margin: 100px auto;
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	
+	80% {
+		transform: translateX(10px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
 }
